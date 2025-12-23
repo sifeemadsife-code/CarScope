@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    background-color:rgb(247, 247, 254);
+} 
+nav{
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+    background-color: rgb(23, 23, 91);
+    padding: 0px 60px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(54, 96, 221);
+    transition: 0.5s;
+}
+ nav ul li{
+    list-style: none;
+}
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+.font{
+    text-align: center;
+}
+.font a{
+    font-weight: bold;
+}
+.font p{
+    line-height: 25px;
+}
+.card_holder{
+display: flex;
+gap: 30px;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
+.card{
+background-color: white;
+box-shadow: 0px 0px 10px   gray;
+border-radius: 8px;
+height:340px;
+width: 320px;
+position: relative;
+
+}
+.card h2{
+    text-align: center ;
+    position: relative;
+}
+.card h2::after{
+    content: "";
+    justify-self: center;
+    display: block;
+    width:80%;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.634);
+    margin-top: 15px;
+}
+.card ul{
+position: absolute;
+display: flex;
+flex-direction: column;
+gap: 15px;
+left: 35px;
+}
+.card li {
+    line-height: 25px;
+}
+footer{
+    margin: 0;
+}
+.foot{
+    display: flex;
+    flex-direction: column  ;
+     color: rgb(16, 16, 157);
+     justify-content: center;
+     margin-top: 30px;
+}
+.foot h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.fot{
+    background-color:  rgb(23, 23, 91);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fot{
+    color: rgb(138, 197, 252);
+    
+}
+.fot a{
+    font-weight: bold;
+     color: rgb(138, 197, 252);
+    padding: 5PX;
+}
+a:hover{
+    color: gray;
+}
