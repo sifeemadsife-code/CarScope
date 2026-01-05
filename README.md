@@ -17,7 +17,6 @@ CarScope also provides detailed information about spare parts — including whic
 - JavaScript  
 
 ## Main Features
-- Search for any car.
 - View full car specifications.
 - Check car prices in the Egyptian market.
 - View the best cars for each brand.
